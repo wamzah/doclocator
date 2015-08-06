@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.docdig.DashboardActivity" >
+
+    <item
+        android:id="@+id/help"
+        android:orderInCategory="100"
+        android:title="Help"        
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/About"
+        android:orderInCategory="100"
+        android:title="About Us"
+        app:showAsAction="never"/>
+
+</menu>

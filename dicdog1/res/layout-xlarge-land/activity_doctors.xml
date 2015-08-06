@@ -1,0 +1,149 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.docdig.DoctorsActivity" >
+
+    
+
+    <View
+        android:id="@+id/Viewback"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_y="50dp"
+        android:alpha="1"
+        android:background="@drawable/textv2" />
+
+    <View
+         android:id="@+id/view22"
+         android:layout_width="match_parent"
+         android:layout_height="54dip"
+         android:layout_alignBottom="@+id/imageView1"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentRight="true"
+         android:background="#FFFFFF" />
+
+    <ImageView
+         android:id="@+id/imageView1"
+         android:layout_width="150sp"
+         android:layout_height="45sp"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentTop="true"
+         android:layout_marginLeft="2dp"
+         android:layout_marginTop="2dp"
+         android:layout_marginBottom="0dp"
+         android:src="@drawable/logohell" />
+     <Spinner
+        android:id="@+id/spinnerHosp"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        
+        android:background="@android:drawable/btn_dropdown" />
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="218dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@id/spinnerHosp"
+        android:layout_below="@id/spinnerHosp"
+        android:text="What Kind of Doctor"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFFFFF"
+        android:paddingTop="8dip"
+        android:textSize="14dp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dip"
+        android:text="Search Doctor By Hospital"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="218dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/Spinner02"
+        android:layout_below="@+id/Spinner02"
+        android:text="Choose Gender"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp"
+        android:paddingTop="8dip"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="218dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/spinnerHosp"
+        android:layout_below="@+id/textView2"
+        android:paddingTop="8dip"
+        android:text="Choose Hospital"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/buttonHome"
+        android:layout_width="43dp"
+        android:layout_height="38dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="2dip"
+        android:layout_marginRight="4dip"
+        android:background="@drawable/homelogo" />
+
+    <Spinner
+        android:id="@+id/Spinner02"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_alignLeft="@+id/TextView01"
+        android:layout_below="@+id/TextView01"
+        android:background="@android:drawable/btn_dropdown" />
+
+    <Spinner
+        android:id="@+id/Spinner01"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_alignLeft="@+id/TextView02"
+        android:layout_below="@+id/TextView02"
+        android:background="@android:drawable/btn_dropdown" />
+
+   
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/Spinner01"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:background="#3391E7"
+        android:text="Search"
+        android:textColor="#F8FBFB"
+        android:textSize="15sp"
+        android:textStyle="bold"
+       android:alpha="0.82"
+        android:typeface="sans" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#FFFFFF" />
+
+</RelativeLayout>

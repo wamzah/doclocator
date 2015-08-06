@@ -1,0 +1,118 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"    
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+          
+    
+    tools:context="com.example.docdig.DashboardActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="483dp"
+        android:layout_height="55dp"
+        android:layout_x="-44dp"
+        android:layout_y="-6dp"
+        android:background="#F8FBFB" />
+
+    <View
+        android:id="@+id/Viewback"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_y="50dp"
+        android:alpha="1"
+        android:background="@drawable/textv2" />
+
+    <View
+        android:id="@+id/View01"
+        android:layout_width="121dp"
+        android:layout_height="108dp"
+        android:layout_x="17dp"
+        android:layout_y="180dp"
+        android:background="@drawable/textv" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="121dp"
+        android:layout_height="108dp"
+        android:layout_x="17dp"
+        android:layout_y="58dp"
+        android:background="@drawable/textv" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_x="7dp"
+        android:layout_y="130dp"
+        android:text="     Search by Doctor"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#3391E7"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/buttonDoctor"
+        android:layout_width="56dp"
+        android:layout_height="49dp"
+        android:layout_x="51dp"
+        android:layout_y="83dp"
+        android:background="@drawable/doctor" />
+
+    <View
+        android:id="@+id/View2"
+        android:layout_width="121dp"
+        android:layout_height="108dp"
+        android:layout_x="180dp"
+        android:layout_y="58dp"
+        android:background="@drawable/textv" />
+
+    <Button
+        android:id="@+id/buttontime"
+        android:layout_width="56dp"
+        android:layout_height="49dp"
+        android:layout_x="216dp"
+        android:layout_y="81dp"
+        android:background="@drawable/timer" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="180dp"
+        android:layout_height="37dp"
+        android:layout_x="178dp"
+        android:layout_y="130dp"
+        android:text="     Search by Time"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#3391E7"
+        android:textStyle="bold"
+        android:textSize="14dp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="219dp"
+        android:layout_height="37dp"
+        android:layout_x="26dp"
+        android:layout_y="251dp"
+        android:text="         Search \n    by Speciality"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#3391E7"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_x="27dp"
+        android:layout_y="13dp"
+        android:text="     DoctorFinder"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#157DEC"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+</AbsoluteLayout>

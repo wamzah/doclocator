@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dicdog1"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
+    <permission
+        android:name="com.example.dicdog1.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature"/>
+ 
+   <uses-permission android:name="android.permission.INTERNET" />
+   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+   <uses-permission android:name="android.permission.CALL_PHONE" />
+   <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+   <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+   <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  
+
+     <supports-screens android:smallScreens="true" 
+          android:normalScreens="true" 
+          android:largeScreens="true"
+          android:xlargeScreens="true"
+          android:anyDensity="true" />
+   
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".HospitalsActivity"
+            android:label="@string/title_activity_hospitals" >
+        </activity>
+        <activity
+            android:name=".SpecialityActivity"
+            android:label="@string/title_activity_speciality" >
+        </activity>
+        <activity
+            android:name=".DoctorsActivity"
+            android:label="@string/title_activity_doctors" >
+        </activity>
+        <activity
+            android:name=".DashboardActivity"
+            android:label="@string/title_activity_dashboard" >
+        </activity>
+        <activity
+            android:name=".Landingpage"
+            android:label="@string/title_activity_landingpage" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DoctorsList"
+            android:label="@string/title_activity_doctors_list" >
+        </activity>
+         <activity
+            android:name=".DoctorsList2"
+            android:label="@string/title_activity_doctors_list2" >
+        </activity>
+        
+        <activity
+            android:name=".SelectedDoctor"
+            android:label="@string/title_activity_selected_doctor" >
+        </activity>
+        <activity
+            android:name=".SearchingByTime"
+            android:label="@string/title_activity_searching_by_time" >
+        </activity>
+        <activity
+            android:name=".Search_doctors"
+            android:label="@string/title_activity_search_doctors" >
+        </activity>
+         <activity
+            android:name=".SearchMaps"
+            android:label="@string/title_activity_search_maps" >
+        </activity>        
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" >
+        </activity>
+        <meta-data
+           android:name="com.google.android.maps.v2.API_KEY"
+           android:value="AIzaSyDkNDKhAnmNzgaJilATxJGkxvq1lT666no" />
+       <meta-data
+           android:name="com.google.android.gms.version"
+           android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

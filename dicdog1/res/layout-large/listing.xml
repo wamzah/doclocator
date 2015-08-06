@@ -1,0 +1,58 @@
+ <LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@layout/listborder3"> 
+  
+    <LinearLayout        
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_weight="0.67"
+        android:padding="5dp" >
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_marginBottom="5px"
+            android:layout_marginLeft="5px"
+            android:layout_marginRight="20px"
+            android:layout_marginTop="5px"
+            />
+
+        <AbsoluteLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="205dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20px"
+                android:text="@+id/name"
+                android:textSize="16dp"
+                android:typeface="sans"
+                android:textColor="#F8F8F8"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/label"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:text="@+id/label"
+                android:textSize="14dp"
+                android:textColor="#F8F8F8"
+                android:typeface="sans"/>
+        </AbsoluteLayout>
+         
+    </LinearLayout>
+  
+    <TextView
+                android:id="@+id/bord"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"               
+                android:text="  "                                
+                android:typeface="sans"/>
+</LinearLayout>

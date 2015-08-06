@@ -1,0 +1,163 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.docdig.DoctorsActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="417dp"
+        android:layout_height="55dp"
+        android:layout_x="-30dp"
+        android:layout_y="-6dp"
+        android:background="#FFFFFF" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_y="50dp"
+        android:alpha="1"
+        android:background="@drawable/textv2" />
+    
+
+    <View
+         android:id="@+id/view2"
+         android:layout_width="match_parent"
+         android:layout_height="54dip"
+         android:layout_alignBottom="@+id/imageView1"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentRight="true"
+         android:background="#FFFFFF" />
+
+    <ImageView
+         android:id="@+id/imageView1"
+         android:layout_width="150sp"
+         android:layout_height="45sp"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentTop="true"
+         android:layout_marginLeft="2dp"
+         android:layout_marginTop="2dp"
+         android:layout_marginBottom="0dp"
+         android:src="@drawable/logohell" />
+
+    <Button
+        android:id="@+id/buttonHome"
+        android:layout_width="43dp"
+        android:layout_height="38dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/homelogo" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="218dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/Spinner02"
+        android:layout_below="@+id/doctorNameautoComplete"
+        android:layout_marginTop="8dip"
+        android:text="Choose Gender"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFFFFF"
+        android:paddingTop="11dp"
+        android:textSize="14dp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dip"
+        android:text="Search Doctor By Name"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <AutoCompleteTextView
+        android:id="@+id/doctorNameautoComplete"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/TextView02"
+        android:layout_below="@+id/textView4"
+        android:background="#808080"
+        android:ems="10"
+         android:layout_marginTop="4dip"
+        android:hint="  Name of doctor"
+        android:selectAllOnFocus="true"
+        android:textColor="#FFFFFF"
+        android:textSize="12dp"
+        android:typeface="sans" />
+
+    <Spinner
+        android:id="@+id/Spinner02"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/TextView02"
+        android:layout_centerHorizontal="true"
+        android:background="@android:drawable/btn_dropdown" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="218dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_below="@+id/textView2"
+        android:paddingTop="8dip"
+        android:text="Select Hospital Name"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp"
+        android:typeface="sans" />
+
+    <Spinner
+        android:id="@+id/spinner_hospital"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="-4dip"
+        android:layout_centerHorizontal="true"
+        android:background="@android:drawable/btn_dropdown" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/doctorNameautoComplete"
+        android:layout_below="@+id/spinner_hospital"
+        android:paddingTop="8dip"
+        android:text="Enter Doctor Name"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/buttonsearchdoc"
+        android:layout_width="100dip"
+        android:layout_height="30dp"
+        android:layout_below="@+id/Spinner02"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:alpha="0.82"
+        android:background="#3391E7"
+        android:text="Search"
+        android:textColor="#F8FBFB"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#FFFFFF" />
+
+</RelativeLayout>

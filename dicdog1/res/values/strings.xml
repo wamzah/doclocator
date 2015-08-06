@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DocLocator</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_hospitals">HospitalsActivity</string>
+    <string name="title_activity_speciality">SpecialityActivity</string>
+    <string name="title_activity_doctors">Search By Specility</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="color_grey">#808080</string>
+    <string name="spinner_title">Choose DoctorType</string>
+    <string name="title_activity_dashboard">Home</string>
+    <string name="title_activity_landingpage">DocLocator</string>
+    <string name="title_activity_doctors_list">List of Doctors</string>
+    <string name="title_activity_doctors_list2">List of Doctors</string>
+    <string name="title_activity_selected_doctor">Doctor Information</string>
+    <string name="title_activity_searching_by_time">Search By Time</string>
+    <string name="title_activity_search_doctors">Search By Name</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_search_maps">SearchMaps</string>
+
+</resources>
